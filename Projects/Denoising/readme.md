@@ -30,7 +30,7 @@ To test your own images follow the below steps:
 * To give path for input images : "C:\Users\vipen\Desktop\Denoising\Original_image"
 * To give path for output images : "C:\Users\vipen\Desktop\Denoising\Denoised_image"
 
-'''
+* Note:
 
 Time taken in processing an image is mainly depends on image resolution not on image size.
 
