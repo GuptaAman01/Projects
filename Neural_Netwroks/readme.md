@@ -1,4 +1,4 @@
-## In this video, I have Implemented Neural networks on Logic Gates :
+## In this, I have Implemented Neural networks on Logic Gates :
 
 1. OR Gate.
 2. AND Gate.
