@@ -46,3 +46,4 @@ On 16 GB RAM PC :
 (2338, 1654, 3) = 45 - 47 sec
 
 '''
+![Webp net-gifmaker](https://user-images.githubusercontent.com/78907282/115427535-2b5af800-a21f-11eb-9bc5-9733f4142aa3.gif)
