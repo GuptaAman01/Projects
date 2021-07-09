@@ -1,6 +1,4 @@
 import tkinter as tk       # To make the UI
-import pandas              # For making and accessing the dataframes
-import numpy               # For arithmetic functionality
 from tkinter import *      # Import all the functions from the tkinter library
 import xlsxwriter          # To create an excel file
 from tkinter import scrolledtext
