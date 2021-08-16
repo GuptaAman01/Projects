@@ -1,0 +1,50 @@
+{% extends 'user.html' %}
+
+{% block content %}
+
+<style>
+    div.a {
+        text-align: center;
+        width: 200px;
+        height: 130px;
+        border: 3px solid green;
+        margin-top: 10px;
+      } 
+    div.b {
+        position: absolute;
+        top: 30px;
+        left: 1200px;  
+      } 
+    div.d {
+        text-align: center;
+    }
+</style>
+
+    {% csrf_token %}
+    <div class='d'>
+        <h1>Hello {{name}}...</h1> 
+        <h2>PRODUCT DETAILS</h2> 
+    </div>
+
+    {% for obj in lst%}
+
+    <div class="a">                                           
+        <h2>{{obj.pname}}</h2>                          
+        <p>
+            Price :- {{obj.price}}/- <br>
+            created at :- {{obj.cat}} <br>
+            updated at :- {{obj.uat}} <br>
+        </p>
+    </div>      
+    
+    {% endfor %}
+    
+    <div class="b">
+        <form action="cproduct" method="POST">
+
+            {% csrf_token %}
+            <input type="submit" value="Create Post">
+        </form>        
+    </div>
+    
+{% endblock %}

@@ -1,0 +1,46 @@
+{% extends 'user.html' %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        div.c {
+            text-align: center;
+            position: absolute;
+            width: 200px;
+            height: 320px;
+            border: 3px solid green;
+            position: absolute;
+            margin-top: 105px;
+            right: 600px;  
+          } 
+          </style>
+</head>
+<body bgcolor ='cyan'> 
+
+    {% block content %}
+    
+      <body>
+    <div class="c">
+        <h1>CREATE POST</h1>
+        <form action='create' method='POST'>
+
+            {% csrf_token %}
+
+            Product Name: <input type="text" name="pname"><br>
+            Price : <input type="text" name="price"><br>
+            Created at  : <input type="time" name="create"><br>
+            Updated at    : <input type="time" name="update"><br>
+            <br>
+            <input type="submit" value='Create'>
+        </form>
+    </div>
+
+    {% endblock %}
+    
+</body>
+</html>
