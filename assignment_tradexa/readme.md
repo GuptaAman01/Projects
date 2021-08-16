@@ -1,4 +1,4 @@
-# In this assignmnet I have used Djnago framework ro create a web application.
+# In this assignmnet I have used Djnago framework to create a web application.
 
 In this application,
 1. User have to register and that data will be saved in database.
