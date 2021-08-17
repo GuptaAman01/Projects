@@ -19,7 +19,7 @@ To build and test your YOLO object detection algorithm follow the below steps:
 - 3_Inference: Scripts and instructions on testing your trained YOLO model on new images and videos
 - Data: Input Data, Output Data, Model Weights and Results
 - Utils: Utility scripts used by main scripts
-- 
+
 ## Getting Started
 ### Google Colab Tutorial Open In Colab
 With Google Colab you can skip most of the set up steps and start training your own model right away.
