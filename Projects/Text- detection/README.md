@@ -116,7 +116,7 @@ where `<API_KEY>` is your Weights & Biases API key.
 ## Output Detected Images
 
 ### On images
-![output1](https://user-images.githubusercontent.com/78907282/129677695-a738ca19-43fb-4ec5-8d74-89b80a8fe002.gif)![output2](https://user-images.githubusercontent.com/78907282/129677424-bbc36a12-8d73-4a3b-a510-56323a6f1b6d.gif)
+![output2](https://user-images.githubusercontent.com/78907282/129677424-bbc36a12-8d73-4a3b-a510-56323a6f1b6d.gif)
 
 
 ## License
