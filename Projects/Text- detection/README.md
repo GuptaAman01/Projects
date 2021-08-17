@@ -61,7 +61,8 @@ Create Virtual **(Windows)** Environment:
 py -m venv env
 .\env\Scripts\activate
 ```
-![PowerShell](/Utils/Screenshots/PowerShell.png)
+![PowerShell]![output1](https://user-images.githubusercontent.com/78907282/129677695-a738ca19-43fb-4ec5-8d74-89b80a8fe002.gif)
+
 Make sure that, from now on, you **run all commands from within your virtual environment**.
 
 #### Install Required Packages [Windows, Mac or Linux]
